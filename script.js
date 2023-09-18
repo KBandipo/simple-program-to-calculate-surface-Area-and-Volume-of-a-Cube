@@ -11,3 +11,7 @@ const cubeSideLength = Number(
     "To find the Surface Area of Cube, A, enter the length side of the cube, s"
   )
 );
+const cubeSurfaceArea = 6 * cubeSideLength ** 2;
+console.log(
+  `Surface Area of Cube, A, with ${cubeSideLength} length of side, s, is ${cubeSurfaceArea}`
+);
