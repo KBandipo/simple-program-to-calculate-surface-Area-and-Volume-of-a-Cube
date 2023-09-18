@@ -15,3 +15,11 @@ const cubeSurfaceArea = 6 * cubeSideLength ** 2;
 console.log(
   `Surface Area of Cube, A, with ${cubeSideLength} length of side, s, is ${cubeSurfaceArea}`
 );
+
+//Volume of a cube, V = s**3 or V = s**3
+
+const cubeVolume = cubeSideLength ** 3;
+
+console.log(
+  `Volume of a Cube with ${cubeSideLength} length of side,s, is ${cubeVolume}`
+);
